@@ -4,5 +4,5 @@ class Game // capital letters signify that this is an interface ;)
   void _Go(Timer*);
   void _Gone();
 public:
-  void Play(void);
+  virtual void Play(void);
 };
